@@ -27,7 +27,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pembo210/Litecore.git"
+    "url": "https://github.com/dArkjON/Litecore.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",

@@ -6,29 +6,22 @@ var hex = function(hex) {
 
 exports.livenet = {
   name: 'livenet',
-  magic: hex('FBC0B6DB'),
-  addressVersion: 0x30,
-  privKeyVersion: 0xb0,
-  P2SHVersion: 5,
+  magic: hex('F9BEB4D9'),
+  addressVersion: 0x03,
+  privKeyVersion: 0x00,
+  P2SHVersion: 125,
   hkeyPublicVersion: 0x0488c42e,
   hkeyPrivateVersion: 0x0488e1f4,
   genesisBlock: {
-    hash: hex('E2BF047E7E5A191AA4EF34D314979DC9986E0F19251EDABA5940FD1FE365A712'),
-    merkle_root: hex('D9CED4ED1130F7B7FAAD9BE25323FFAFA33232A17C3EDF6CFD97BEE6BAFBDD97'),
+    hash: hex('74952EA5CE08450348643F611D41696F8E0DD63CD0E587247F4B5C1E28484160'),
+    merkle_root: hex('C787795041016D5EE652E55E3A6AEFF6C8019CF0C525887337E0B42065526916'),
     height: 0,
     nonce: 2084524493,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1317972665,
+    timestamp: 1492973331,
     bits: 504365040,
   },
-  dnsSeeds: [
-    'dnsseed.litecointools.com',
-    'dnsseed.litecoinpool.org',
-    'dnsseed.ltc.xurious.com',
-    'dnsseed.koin-project.com',
-    'dnsseed.weminemnc.com'
-  ],
   defaultClientPort: 9333
 };
 
